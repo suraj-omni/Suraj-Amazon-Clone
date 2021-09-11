@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 
 function ACHeader() {
   const [session] = useSession();
-  const url = "https://ebuy.lk/wp-content/uploads/2021/amazon_PNG11.png";
+  const url = "https://ebuy.lk/wp-content/uploads/2021/amazonPNG11.png";
   const router = useRouter();
   const items = useSelector(selectItems);
   return (

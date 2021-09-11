@@ -15,7 +15,7 @@ function Checkout() {
       <ACHeader/>
       <div className="mx-1 mb-1 max-w-screen-2xl mx-auto">
         <Image
-          src="https://ebuy.lk/wp-content/uploads/2021/Amazon-Prime-Banner.jpg"
+          src="https://ebuy.lk/wp-content/uploads/2021/AmazonPrimeBanner.jpg"
           width={1020}
           height={250}
           objectFit="contain"
