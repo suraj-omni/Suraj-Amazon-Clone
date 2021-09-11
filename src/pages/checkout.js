@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import CheckoutProduct from "../components/CheckoutProduct";
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -12,7 +12,7 @@ function Checkout() {
   const [session] = useSession();
   return (
     <div className="bg-gray-100">
-      <Header />
+      {/* <Header /> */}
       <div className="mx-1 mb-1 max-w-screen-2xl mx-auto">
         <Image
           src="https://ebuy.lk/wp-content/uploads/2021/Amazon-Prime-Banner.jpg"
