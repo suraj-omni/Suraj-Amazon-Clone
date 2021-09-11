@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Header from "../components/Header";
 import CheckoutProduct from "../components/CheckoutProduct";
 import Image from "next/image";
 import { useSelector } from "react-redux";
