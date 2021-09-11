@@ -9,11 +9,10 @@ import { signIn, signOut, useSession } from "next-auth/client";
 import { selectItems } from "../slices/cartSlice";
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
-import amazonLogo from "../../public/amazonPNG11.png";
 
 function ACHeader() {
   const [session] = useSession();
-  //const url = "https://www.pngitem.com/pimgs/m/1-12080_amazon-logo-png-amazon-white-text-logo-transparent.png";
+  const url = "https://links.papareact.com/f90";
   const router = useRouter();
   const items = useSelector(selectItems);
   return (
@@ -23,7 +22,7 @@ function ACHeader() {
         <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
           <Image
             onClick={() => router.push("/")}
-            src={amazonLogo}
+            src={url}
             width={150}
             height={40}
             objectFit="contain"
