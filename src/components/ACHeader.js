@@ -10,7 +10,7 @@ import { selectItems } from "../slices/cartSlice";
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 
-function Header() {
+function ACHeader() {
   const [session] = useSession();
   const url = "https://ebuy.lk/wp-content/uploads/2021/amazon_PNG11.png";
   const router = useRouter();
@@ -92,4 +92,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default ACHeader;
