@@ -49,7 +49,7 @@ export async function getServerSideProps(context) {
   const session = await getSession(context);
   if (!session) {
     return {
-      props: {},
+      props: { session },
     };
   }
 
